@@ -94,5 +94,6 @@ If you find yourself coming up on proposal day and you're not sure what to propo
    - <sup>a</sup> Two sites I'm involved with that I know I'd like to redesign, but just haven't had time, are for the <a href="https://jitp.commons.gc.cuny.edu">Journal of Interactive Technology and Pedagogy</a> and for our very own <a href="https://benmiller314.github.io/cdm2021spring">Composing Digital Media</a>. And there's always the <a href="http://www.csszengarden.com/">CSS Zen Garden...</a>
 
 3. _Electrate Autobiography_. My colleague Stephen Quigley has put together a guided exercise in reflecting on your networks of influence that functions as a kind of behind-the-scenes hands-on-code version of an Adobe Spark. Template-style writing prompts are hidden in comments on the html, and the CSS is fully customizable. Have a look at [pitt-fuego.github.io/Electrate-Fuego/](https://pitt-fuego.github.io/Electrate-Fuego/) for more information!
+  - NB: The templates assume you *don't* already have a GitHub account or repository to work in. No worries: when you get to the step on downloading the .zip, you can uncompress the files into your website repo for this class instead of starting from scratch.
 
 And if your parachute is malfunctioning (i.e. you'd like even more specific direction), just let me know! I'm happy to talk things out in office hours.
