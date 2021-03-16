@@ -17,29 +17,46 @@ _This is last year's starting point; we'll discuss and update in class when you'
 **Baseline criteria**
 For a minimum grade of B, all projects for this unit must:
 
-* Use arrangement, size, color, visual rhythm, and/or contrast to focus viewers' attention.
-* Include at least three navigable html locations
-* Have a clear mode of navigation among the pages
-* Include at least one sitewide css stylesheet (i.e. an organized theme)
-* Include at least one legally useable image, with alt text
-* Successfully display locally in a web browser
-* Argue in reflection why you did what you did
+* Use arrangement, size, color, visual rhythm, and/or contrast to focus viewers' attention
+* Include at least 2-3 navigable html locations (multiple pages, or multiple scrolling locations on the same page)
+* Have a clear mode of navigation among the pages (no dead ends)
+*	Include a sitewide css stylesheet (i.e. an organized visual theme)
+*	Include at least one legally useable image, with alt text
+*	Successfully display locally in a web browser
+*	Credit all assets correctly, including attribution (creator names) where required
+
 
 **Aspirational inspirations**
 To target (but not guarantee) a grade above a B, the best projects for this unit may...
 
-* Load site publicly over the internet (e.g. with GitHub Pages)
-* Use Flexbox or Grid layouts
-* Use responsive design to dynamically resize elements based on screen width
-* Use advanced navigation, like drop-down menus, tabs, or a sticky nav bar
-* Use Jekyll (built into GitHub Pages; see [Resources page](https://benmiller314.github.io/cdm2020spring/resources#web-frameworks)) to deploy html templates and variables, which can help minimize repetition
-* Optimize image filetypes, resolutions, and file sizes for the web
-* Add interactivity via JavaScript (e.g. on-click events) or other ways to receive information from site visitors (e.g. mailto: links, forms)
-* Animate HTML elements via JavaScript (e.g. image carousel) or CSS (e.g. :hover events)
-* Include a loadable alternate stylesheet / theme (e.g. dark mode)
-* Make or modify your own graphics using GIMP, etc
-* Use best practices for accessible design (see [W3's Four Principles](https://www.w3.org/TR/UNDERSTANDING-WCAG20/intro.html#introduction-fourprincs-head) and the [WAVE web accessibility evaluation tool](http://wave.webaim.org))
-* Use best practices for responsive design (e.g. `@media` queries to resize elements for mobile vs desktop viewing)
+* Media Files
+  -	Include playable media (music, video)
+  -	Use many images, laid out in a clear pattern (e.g. grid, alternating left/right)
+  -	Optimize image filetypes, resolutions, and file sizes for faster loading
+  -	Make or modify your own graphics using GIMP, etc
+
+* Coding
+  -	Use advanced navigation, e.g. drop-down menu, tabs, or sticky nav bar
+  -	Condense your CSS stylesheet to the best of your ability
+  -	Use Jekyll (built into GitHub Pages; see [Resources page](https://benmiller314.github.io/cdm2021spring/resources#web-frameworks)) to minimize repetition in your HTML through templates and variables
+  -	Use JavaScript
+  -	Use a web framework to build your website (angular, react, etc. but also bootstrap, skeleton, etc, depending on your level)
+
+* Audience Engagement
+  -	Use best practices for accessible design (see [W3's Four Principles](https://www.w3.org/TR/UNDERSTANDING-WCAG20/intro.html#introduction-fourprincs-head) and the [WAVE web accessibility evaluation tool](http://wave.webaim.org))
+  -	Load site publicly over the internet (e.g. with GitHub Pages)
+  -	Have a clear, consistent theme for your website’s content
+
+* Dynamism
+  -	Use responsive design (e.g. @media queries, Flexbox, Grid) to dynamically resize elements based on viewport width
+  -	Animate HTML elements via JavaScript (e.g. image carousel) or CSS (e.g. :hover / :focus events)
+  -	Add interactivity via JavaScript (e.g. on-click events) or other ways to receive information from site visitors (e.g. mailto: links, forms)
+  -	Include a loadable alternate stylesheet / theme (e.g. dark mode, high-contrast) if you can explain why it’s helpful in your reflection (e.g. does it make the site more accessible? Is it a print stylesheet?)
+
+* Reflection
+  -	Use meaningful commit messages that say what’s changing (or even why), especially if that’s new to you
+  -	Make a clear argument in your reflection as to why you met enough of the aspirational criteria to be stretching the abilities you came in with
+
 
 
 ## Deadlines and products
@@ -75,6 +92,6 @@ If you find yourself coming up on proposal day and you're not sure what to propo
 2. _Site redesign_. Choose an existing website that you think is kinda boring, or busy, or otherwise in need of a fresh start.<sup>a</sup> After thinking about why someone would be coming to the site, and what they might want to do once there, build a mock-up of a new design that better meets those needs and goals. NB: I say "mock-up" advisedly: many live sites on the open web can be fiendishly complicated. While it's a good idea to "View Page Source" to look at the underlying html, you may prefer to create your own simplified version from scratch, with just the major block elements you'll use for layout and navigation, and write your stylesheet just for that.
    - <sup>a</sup> Two sites I'm involved with that I know I'd like to redesign, but just haven't had time, are for the <a href="https://jitp.commons.gc.cuny.edu">Journal of Interactive Technology and Pedagogy</a> and for our very own <a href="https://benmiller314.github.io/cdm2020spring">Composing Digital Media</a>. And there's always the <a href="http://www.csszengarden.com/">CSS Zen Garden...</a>
 
-3. _Electrate Autobiography_. My colleague Stephen Quigley has put together a guided exercise in reflecting on your networks of influence that functions as a kind of behind-the-scenes hands-on-code version of an Adobe Spark. Template-style writing prompts are hidden in comments on the html, and the CSS is fully customizable. Have a look at [github.com/sjquigley/Electrate-Fuego](https://github.com/sjquigley/Electrate-Fuego) for more information! 
+3. _Electrate Autobiography_. My colleague Stephen Quigley has put together a guided exercise in reflecting on your networks of influence that functions as a kind of behind-the-scenes hands-on-code version of an Adobe Spark. Template-style writing prompts are hidden in comments on the html, and the CSS is fully customizable. Have a look at [github.com/sjquigley/Electrate-Fuego](https://github.com/sjquigley/Electrate-Fuego) for more information!
 
 And if your parachute is malfunctioning (i.e. you'd like even more specific direction), just let me know!
