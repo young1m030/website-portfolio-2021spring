@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1, p {
+  background-color: #DDE0E3;    /*Light gray */
+  padding: 20px 0 20px 10px;
+
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+em, strong {
+  background-color: #B2D6FF; /* Light blue */
+  display: inline;
+}
+
+div {
+  color: #FFF;
+  background-color: #5995DA;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+
+  box-sizing: border-box;
+  margin: 20px auto; /* Vertical Horizontal */
+}
+
+body {
+  text-align: center;
+}
