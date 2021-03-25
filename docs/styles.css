@@ -1,0 +1,16 @@
+/***** Main menu styling *****/
+nav.main-nav {
+  height: 3em;
+  font: comic-sans;
+}
+
+nav.main-nav ul {
+  list-style-type: none;
+  display: flex;
+  font: comic-sans;
+}
+
+nav.main-nav li {
+  padding: 1em;
+  font: comic-sans;
+}
