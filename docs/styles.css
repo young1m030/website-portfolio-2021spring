@@ -1,16 +1,17 @@
 /***** Main menu styling *****/
 nav.main-nav {
   height: 3em;
-  font: comic-sans;
+  background-color: #5995DA;  /* Blue */
+  display: flex;
+  justify-content: space-between;
 }
 
 nav.main-nav ul {
   list-style-type: none;
   display: flex;
-  font: comic-sans;
+  justify-content: space-between;
 }
 
 nav.main-nav li {
   padding: 1em;
-  font: comic-sans;
 }
