@@ -15,3 +15,39 @@ nav.main-nav ul {
 nav.main-nav li {
   padding: 1em;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'latest photo about best'
+  'latest photo about best'
+  'latest best'
+  'latest best'
+  grid-template-columns: repeat(4. 1fr);
+  background-color: #C4E8FA;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  background-color: #C4E8FA;
+}
+.item1 {
+  grid-area: About Me
+}
+
+.item2 {
+  grid-area: photo
+}
+
+.item3 {
+  grid-area: My latest
+}
+
+.item4 {
+  grid-area: My Best
+}
