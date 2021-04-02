@@ -16,38 +16,30 @@ nav.main-nav li {
   padding: 1em;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-areas:
-  'latest photo about best'
-  'latest photo about best'
-  'latest best'
-  'latest best'
-  grid-template-columns: repeat(4. 1fr);
-  background-color: #C4E8FA;
-  padding: 10px;
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
 }
 
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
+.flex-container > section {
+  background-color: #f1f1f1;
+  margin: 10px;
   padding: 20px;
   font-size: 30px;
-  text-align: center;
-  background-color: #C4E8FA;
-}
-.item1 {
-  grid-area: About Me
 }
 
-.item2 {
-  grid-area: photo
+.grow1 {
+  flex-grow: 1;
 }
 
-.item3 {
-  grid-area: My latest
+.grow2 {
+  flex-grow: 2;
 }
 
-.item4 {
-  grid-area: My Best
+.grid-container {
+  display: grid;
+}
+
+.bio {
+  width: 50%;
 }

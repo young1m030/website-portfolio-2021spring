@@ -1,36 +1,65 @@
 <!DOCTYPE html>
 <html lang= 'en'>
+<head>
+  <link rel='stylesheet' href='styles.css'/>
+</head>
+<body>
+  <nav class="main-nav" id="main-nav">
+    <ul>
+      <li class="active">
+        <a href="./index.html">Home</a>
+      </li>
+      <li>
+        <a href="./resume.html">Resume</a>
+      </li>
+      <li>
+        <a href='./editorial.html'>Editorial</a>
+      </li>
+      <li>
+        <a href="./audio.html">Audio</a>
+      </li>
+      <li>
+        <a href="./visual.html">Visual</a>
+      </li>
+      </ul>
+    </nav>
 
-<link rel='stylesheet' href='styles.css'/>
-<nav class="main-nav" id="main-nav">
-  <ul>
-    <li class="active">
-      <a href="./index.html">Home</a>
-    </li>
-    <li>
-      <a href="./resume.html">Resume</a>
-    </li>
-    <li>
-      <a href='./editorial.html'>Editorial</a>
-    </li>
-    <li>
-      <a href="./audio.html">Audio</a>
-    </li>
-    <li>
-      <a href="./visual.html">Visual</a>
-    </li>
-    </ul>
-  </nav>
 
-  <head>
-    Welcome to my website!<!-- Metadata goes here -->
-  </head>
-  <body>
-    <div class='container'>
-      <div class='grid-item'>About Me</div>
-      <div class='grid-item'>Photo</div>
-      <div class='grid-item'>My Latest</div>
-      <div class='grid-item'>My Best</div>
+    <h1>Margaret Young</h1>
+    <h2>Writer, Editor, Media Specialist</h2><!-- Metadata goes here -->
+
+
+    <div class="flex-container">
+      <section class="latest grow1">
+          <h2>My Latest</h2>
+
+          <article>
+            <h3>Title of clip 1</h3>
+            <p>Summary of article. Lorem ipsum etc etc</p>
+          </article>
+
+          <article>
+            <h3>Title of clip 2</h3>
+            <p>Summary of article. Lorem ipsum etc etc</p>
+          </article>
+      </section>
+      <section class="bio grow2">
+        <div class="photo fleft">Photo</div>
+        <div class="about">About Me</div>
+      </section>
+      <section class="best grow1">
+        <h2>My Best</h2>
+
+        <article>
+          <h3>Title of clip 1</h3>
+          <p>Summary of article. Lorem ipsum etc etc</p>
+        </article>
+
+        <article>
+          <h3>Title of clip 2</h3>
+          <p>Summary of article. Lorem ipsum etc etc</p>
+        </article>
+      </section>
     </div>
   </body>
 </html>
