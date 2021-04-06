@@ -26,6 +26,7 @@ nav.main-nav li {
   margin: 10px;
   padding: 20px;
   font-size: 30px;
+  width: 25%;
 }
 
 .grow1 {
@@ -36,9 +37,6 @@ nav.main-nav li {
   flex-grow: 2;
 }
 
-.grid-container {
-  display: grid;
-}
 
 .bio {
   width: 50%;
