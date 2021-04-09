@@ -1,7 +1,6 @@
 /***** Main menu styling *****/
 nav.main-nav {
   height: 3em;
-  background-color: #5995DA;  /* Blue */
   display: flex;
   justify-content: space-between;
 }
@@ -16,9 +15,12 @@ nav.main-nav li {
   padding: 1em;
 }
 
+p {
+  font-size: 20px
+}
+
 .flex-container {
   display: flex;
-  background-color: DodgerBlue;
 }
 
 .flex-container > section {
@@ -26,7 +28,6 @@ nav.main-nav li {
   margin: 10px;
   padding: 20px;
   font-size: 30px;
-  width: 25%;
 }
 
 .grow1 {
@@ -34,10 +35,20 @@ nav.main-nav li {
 }
 
 .grow2 {
-  flex-grow: 2;
+  flex-grow: 5;
 }
 
 
 .bio {
-  width: 50%;
+  width: 100%;
+}
+
+.fleft {
+    float: left;
+    margin-right: 1em;
+    font-size: 20px
+}
+
+.img {
+  display: flex;
 }
