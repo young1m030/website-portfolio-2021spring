@@ -28,7 +28,7 @@ p {
 }
 
 .flex-container > section {
-  background-color: #f1f1f1;
+  background-color: #FAEFC4;
   margin: 10px;
   padding: 20px;
   font-size: 30px;
@@ -78,8 +78,7 @@ p {
 
 .header {
   text-align: center;
-  background: #1abc9c;
-  color: white;
+  background: #C4CFFA;
   font-size: 30px;
   display: flex;
   flex-direction: column;
