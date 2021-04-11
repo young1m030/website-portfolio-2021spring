@@ -91,5 +91,25 @@ p {
 }
 
 .SCI-header {
-  background: #1abc9c;
+  background: #FAEFC4;
+}
+
+.TPN-header {
+  background: #C4FAD4;
+}
+
+.PM-header {
+  background: #FAC4EA;
+}
+
+.WESA-header {
+  background: #C4CFFA;
+}
+
+.FM-header {
+  background: #FAEFC4;
+}
+
+.CDM-header {
+  background: #C4CFFA;
 }
