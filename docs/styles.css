@@ -75,3 +75,22 @@ p {
 .li {
   font-size: 30px
 }
+
+.header {
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.header > * {
+  margin: 0;
+  padding:0;
+}
+
+.SCI-header {
+  background: #1abc9c;
+}
