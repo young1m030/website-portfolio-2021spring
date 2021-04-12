@@ -3,6 +3,7 @@ nav.main-nav {
   height: 3em;
   display: flex;
   justify-content: space-between;
+  font-family: "corbert", Verdana, sans-serif;
 }
 
 nav.main-nav ul {
@@ -13,18 +14,21 @@ nav.main-nav ul {
   background-color: #FFFFFF;
   justify-content: space-between;
   width: 100%
+  font-family: "corbert", Verdana, sans-serif;
 }
 
 nav.main-nav li {
   padding: 1em;
 }
 
-p {
-  font-size: 20px
+h1, h2, ul, p {
+  font-family: "corbert", Verdana, sans-serif;
 }
 
 .flex-container {
   display: flex;
+  font-family: "corbert", Verdana, sans-serif;
+  font-size: 15px
 }
 
 .flex-container > section {
@@ -32,14 +36,18 @@ p {
   margin: 10px;
   padding: 20px;
   font-size: 30px;
+  font-family: "corbert", Verdana, sans-serif;
+  font-size: 20px
 }
 
 .grow1 {
   flex: 1;
+  font-family: "corbert", Verdana, sans-serif;
 }
 
 .grow2 {
   flex: 3;
+  font-family: "corbert", Verdana, sans-serif;
 }
 
 
@@ -50,7 +58,7 @@ p {
 .fleft {
     float: left;
     margin-right: 1em;
-    font-size: 20px
+    font-size: 20px;
 }
 
 .img {
@@ -60,20 +68,21 @@ p {
 .flex-container1 {
  display: flex;
  flex-direction: column;
- background-color: DodgerBlue;
+ font-family: "corbert", Verdana, sans-serif;
 }
 
 .flex-container1 > div {
-  background-color: #f1f1f1;
   width: 100px;
   margin: 10px;
   text-align: center;
   line-height: 75px;
   font-size: 30px;
+  font-family: "corbert", Verdana, sans-serif;
 }
 
-.li {
+li {
   font-size: 30px
+  font-family: "corbert", Verdana, sans-serif;
 }
 
 .header {
@@ -83,15 +92,18 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  font-family: "corbert", Verdana, sans-serif;
 }
 
 .header > * {
   margin: 0;
   padding:0;
+    font-family: "corbert", Verdana, sans-serif;
 }
 
 .SCI-header {
   background: #FAEFC4;
+  font-family: "corbert", Verdana, sans-serif;
 }
 
 .TPN-header {
