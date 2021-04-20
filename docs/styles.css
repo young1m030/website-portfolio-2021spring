@@ -85,6 +85,16 @@ li {
   font-family: "corbert", Verdana, sans-serif;
 }
 
+.header-container {
+  display: flex;
+  background: #C4CFFA;
+  justify-content: space-around;
+}
+
+.dummy-img {
+  visibility: hidden;
+}
+
 .header {
   text-align: center;
   background: #C4CFFA;
