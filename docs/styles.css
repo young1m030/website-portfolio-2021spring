@@ -144,3 +144,16 @@ li {
 .radio-header {
   background: #FAC4EA;
 }
+
+.photos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 10px;
+}
+
+.arg-header {
+  display: flex;
+  justify-content: center;
+}
